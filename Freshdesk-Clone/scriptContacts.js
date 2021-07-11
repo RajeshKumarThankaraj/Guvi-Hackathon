@@ -22,8 +22,8 @@ async function contactDisplay() {
             cntsContainer.className = "ticket-container";
             cntsContainer.innerHTML = `
             <p class="tkt-sub">Name: ${e.name}</p>
-            <p class="tkt-pri">Priority: ${e.email}</p>
-            <p class="tkt-pri">Status: ${e.status}</p>`         
+            <p class="tkt-pri">Email: ${e.email}</p>
+            <p class="tkt-pri">Id: ${e.id}</p>`         
             cnts.append(cntsContainer);
             })
         } catch (e) {
